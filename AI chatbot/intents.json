@@ -1,0 +1,98 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Drake","I'm Drake","I'm Drake your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["Poornima University has many course availbe, \ncourses are:\n\n1.B.Tech(CE,CS,AIDS)\n\n2.B.Tech(EE,ME)\n\n3.BCA(genral,CS,AIDS)\n\n4.B.sc\n\n5.BBA (Marketing) \n\n6.BBA (Accounting & Finance)\n\n7.PIHM"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be course", "how long will it take to complete course"],
+  "responses": ["Our college offers 4 year long B.Tech course and 3 long BCA and BBA course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Poornnima University is located, Ramchandrapura P.O. Vidhani Vatika Road Sitapura,Jaipur, Rajasthan."]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["Academic Level 12th passed and 75% or above in PCM (theory and practical) for B.tech.\nFor BCA In 12th from any stream and 65% and above."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be six or seven classes per day. Each class will be of 1 hour and Lab will be of 2 hour."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Our college has different teaching patterns than other colleges of India. We adopt a British teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are assignments,Lab recrod,practical these all carry marks for written exam . The assignments and Lab records have deadlines which you should not exceed if you want to get better marks.There also written exam in 3 parts CIE-1, Mid sem and End sem"]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 7:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Lakshay, Carnival, Holi festival, and Christmas. \n Also our college has basketball court,Football ground,American Football Ground, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen,Library, parking space, and student service for any students queries."]
+  },
+
+  
+  {"tag": "fee",
+  "patterns": ["how much is the college fee", "what is the fee structure"],
+  "responses": ["The fee structure for the college is as follows: \n\nB.Tech:\nAdmission fee: RS 96,000 \n\nYear 1:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 69,000\nTotal fee: RS 334,000\n\nYear 2:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 69,000\nTotal fee: RS 238,000\n\nYear 3:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 69,000\nTotal fee: RS 238,000\n\nGrand Total fee: RS 810,000\n\nBCA:\nAdmission fee: RS 96,000\n\nYear 1:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 52,000\nTotal fee: RS 300,000\n\nYear 2:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 52,000\nTotal fee: RS 204,000\n\nYear 3:\nUniversity and Exam fee: RS 100,000\nSemester fee: RS 52,000\nTotal fee: RS 204,000\n\nGrand Total fee: RS 710,000"]
+    },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "Founder",
+  "patterns": ["Who Founded Poornima University","Who Founded PU","who is president of Poornima university","who is president of PU","who is principle of poornima University","who is principle of PU"],
+  "responses": ["Co-Founder:\nRahul Singhi\n\nChairman:\nShashikant Singhi\n\nPresident:\nSuresh Chandra Padhy"]
+  },
+
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
